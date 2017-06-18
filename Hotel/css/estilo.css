@@ -1,4 +1,3 @@
-
 @media only screen and (max-width:2100px) {
     /*estilo do header*/
     body{
@@ -19,18 +18,19 @@
     #contato{
         position: absolute;
         float: left;
-        margin-top: -212px;
+        margin-top: -220px;
         margin-left: 480px;
         width: 1420px;
-        height: 180px;
+        height: 198px;
         background-color: rgba(22, 22, 22, 0.2);
     }
     #contato p{
-        margin-left: 1110px;
+        margin-left: 650px;
+        font-size: 20px;
     }
     #titulo{
         position: absolute;
-        margin-top: -32px;
+        margin-top: -23px;
         width: 100%;
         height: 814px;
         background-color: rgba(22, 22, 22, 0.1);
@@ -46,6 +46,7 @@
 
     #titulo a{
         text-decoration: none;
+        margin-left: 1100px;
         color: rgba(28,0,14,255);
         
     }
@@ -53,7 +54,7 @@
         color: #1C000E;
         font-size: 20px;
         text-align: center;
-        margin-left: 910px;
+        
         background-color: #fff;
         width: 80px;
         padding: 5px;
@@ -73,6 +74,69 @@
         margin-top: -217px;
         width: 100%;
         height: 1000px;
+    }
+     hr{
+        margin-left: 650px;
+        width:515px;
+        border-color: rgba(80,0,14,255);
+    }
+
+    #menu{
+        margin-top: 10px;
+        margin-left: 650px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+    }
+
+    #menu ol{
+        font: 16px;
+        padding: 0px;
+    }
+
+    #menu ol li{
+        float: left;
+        position: relative;
+        display: block;
+    }
+
+    #menu ol li a{
+        color: #ccc24a;
+        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
+        text-decoration: none;
+        margin: 2 2px;
+        padding: 8px 28px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    #menu ol li a:hover{
+        background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+        background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
+        background-image: -moz-linear-gradient(top, #50000E, #1C000E);
+        background-image: linear-gradient(to bottom, #50000E, #1C000E);
+        color: #ccc24a;
+    }
+     #dvqt{
+        color: #ccc24a;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 640px;
+        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
+        width: 80px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    #dvqt:hover{
+        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
+        background-image: -moz-linear-gradient(top, #50000E, #1C000E);
+        background-image: linear-gradient(to bottom, #50000E, #1C000E);
     }
 
 
@@ -107,12 +171,11 @@
     
 }
 
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width:1400px) {
     body{
         margin: 0px;
     }
     
-
     #logo img{
         position: absolute;
         width: 400px;
@@ -124,23 +187,74 @@
         float: left;
         margin-top: -212px;
         margin-left: 80px;
-        width: 1421px;
-        height: 180px;
+        width: 1266px;
+        height: 160px;
         background-color: rgba(22, 22, 22, 0.2);
     }
+    
+    #contato p{
+        font-size: 16px;
+        margin-left: 650px;
+        margin-top: 60px;
+    }
+
+    hr{
+        margin-left: 650px;
+        width:515px;
+        border-color: rgba(80,0,14,255);
+    }
+
+    #menu{
+        margin-top: 10px;
+        margin-left: 650px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+    }
+
+    #menu ol{
+        font: 16px;
+        padding: 0px;
+    }
+
+    #menu ol li{
+        float: left;
+        position: relative;
+        display: block;
+    }
+
+    #menu ol li a{
+        color: #ccc24a;
+        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
+        text-decoration: none;
+        margin: 2 2px;
+        padding: 6px 25px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    #menu ol li a:hover{
+        background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+        background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
+        background-image: -moz-linear-gradient(top, #50000E, #1C000E);
+        background-image: linear-gradient(to bottom, #50000E, #1C000E);
+        color: #ccc24a;
+    }
+
     #titulo{
         position: absolute;
-        margin-top: -32px;
+        margin-top: -52px;
         width: 100%;
-        height: 814px;
-        background-color: rgba(22, 22, 22, 0.2);
+        height: 615px;
+        background-color: rgba(22, 22, 22, 0.1);
     }
 
     #titulo h3{
-        font-size: 40px;
+        font-size: 35px;
         color: #fff;
-        margin-left: 680px;
-        margin-top: 400px;
+        margin-left: 450px;
+        margin-top: 315px;
         font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     }
 
@@ -150,13 +264,24 @@
         
     }
     #dvqt{
-        color: #1C000E;
+        color: #ccc24a;
         font-size: 20px;
         text-align: center;
-        margin-left: 910px;
-        background-color: #fff;
+        margin-left: 640px;
+        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
         width: 80px;
         padding: 5px;
+        border-radius: 5px;
+    }
+
+    #dvqt:hover{
+        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
+        background-image: -moz-linear-gradient(top, #50000E, #1C000E);
+        background-image: linear-gradient(to bottom, #50000E, #1C000E);
     }
 
     header div p{
@@ -166,12 +291,42 @@
     }
 
     header div span{
-        color:#bdb76b;
+        color:#ccc24a;
     }
 
     #imgHeader{
         margin-top: -217px;
         width: 100%;
-        height: 1000px;
+        height: 800px;
+    }
+
+
+    /*estilo da section*/
+    #reserva{
+        margin-left: 450px;
+        width: 900px;
+        height: 150px;
+        background-color: #bdb76b;
+    }
+
+    #reserva label{
+        font-size: 20px;
+        color: white;
+    }
+    #entrada{
+        padding: 10px;
+        width: 125px;         
+    }
+    #saida{
+        padding: 10px;
+        width: 125px; 
+    }
+    #adultos{
+        padding: 12px;
+        width: 125px;
+    }
+    #criancas{
+        padding: 12px;
+        width: 125px;
     }
 }
