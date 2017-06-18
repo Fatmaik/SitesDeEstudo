@@ -455,4 +455,23 @@
         margin-left: -435px;
         width: 550px;
     }
+
+    #precoCasal{
+        visibility: hidden;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 880px;    
+    }
+
+    #precoSolteiro{
+        visibility: hidden;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 260px;
+
+    }
+
+    .classShadow{
+        box-shadow : 10px 10px 5px silver;
+    }
 }
