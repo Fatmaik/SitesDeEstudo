@@ -1,4 +1,5 @@
 @media only screen and (max-width:2100px) {
+    /*estilo do header*/
     body{
         margin: 0px;
     }
@@ -17,21 +18,22 @@
     #contato{
         position: absolute;
         float: left;
-        margin-top: -212px;
+        margin-top: -220px;
         margin-left: 480px;
-        width: 1398px;
-        height: 180px;
+        width: 1420px;
+        height: 198px;
         background-color: rgba(22, 22, 22, 0.2);
     }
     #contato p{
-        margin-left: 1110px;
+        margin-left: 650px;
+        font-size: 20px;
     }
     #titulo{
         position: absolute;
-        margin-top: -32px;
+        margin-top: -23px;
         width: 100%;
         height: 814px;
-        background-color: rgba(22, 22, 22, 0.2);
+        background-color: rgba(22, 22, 22, 0.1);
     }
 
     #titulo h3{
@@ -44,17 +46,22 @@
 
     #titulo a{
         text-decoration: none;
+        margin-left: 1100px;
         color: rgba(28,0,14,255);
         
     }
     #dvqt{
-        color: #1C000E;
+        color: #ccc24a;
         font-size: 20px;
         text-align: center;
         margin-left: 910px;
-        background-color: #fff;
+        background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
         width: 80px;
         padding: 5px;
+        border-radius: 5px;
     }
 
     header div p{
@@ -72,6 +79,135 @@
         width: 100%;
         height: 1000px;
     }
+     hr{
+        margin-left: 650px;
+        width:540px;
+        border-color: rgba(80,0,14,255);
+    }
+
+    #menu{
+        margin-top: 10px;
+        margin-left: 650px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+    }
+
+    #menu ol{
+        font: 16px;
+        padding: 0px;
+    }
+
+    #menu ol li{
+        float: left;
+        position: relative;
+        display: block;
+    }
+
+    #menu ol li a{
+        color: #ccc24a;
+        background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
+        text-decoration: none;
+        margin: 2 2px;
+        padding: 8px 28px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    #menu ol li a:hover{
+        background-color: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+        background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
+        background-image: -moz-linear-gradient(top, #50000E, #1C000E);
+        background-image: linear-gradient(to bottom, #50000E, #1C000E);
+        color: #ccc24a;
+    }
+     
+
+    #dvqt:hover{
+        background:-webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+        background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
+        background-image: -moz-linear-gradient(top, #50000E, #1C000E);
+        background-image: linear-gradient(to bottom, #50000E, #1C000E);
+    }
+
+
+    /*estilo da section*/
+    #reserva{
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 450px;
+        width: 1100px;
+        height: 125px;
+        background-color: #bdb76b;
+        border-radius: 5px;
+    }
+    form{
+        
+        padding-top: 45px;
+    }
+    #reserva label{
+        margin-left: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    #entrada{
+        border-radius: 10px;
+        font-size: 13px;
+        padding: 8px;
+        width: 125px;         
+    }
+    #saida{
+        border-radius: 10px;
+        font-size: 13px;
+        padding: 8px;
+        width: 125px;  
+    }
+    #adultos{
+        border-radius: 10px;
+        margin-left: 70px;
+        padding: 12px;
+        width: 125px;
+    }
+    #criancas{
+        border-radius: 10px;
+        margin-left: 70px;
+        padding: 12px;
+        width: 125px;
+    }
+    #submit{
+        
+        float: left;
+        color: #ccc24a;
+        font-size: 20px;
+        text-align: center;
+        margin-top: -55px;
+        margin-left: 910px;
+        background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
+        width: 150px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    
+    #quartos{
+        float: left;
+        margin-top: 120px;
+        margin-left: 550px;
+        color: #ccc24a;
+        font-size: 28px;
+    }
+
+    #casal{
+        margin-left: 10px;
+    }
+
+    #solteiro{
+        float: left;
+        margin-left: -200px;
+    }
 }
 
 @media only screen and (max-width:1400px) {
@@ -79,7 +215,6 @@
         margin: 0px;
     }
     
-
     #logo img{
         position: absolute;
         width: 400px;
@@ -208,5 +343,82 @@
         margin-top: -217px;
         width: 100%;
         height: 800px;
+    }
+
+
+    /*estilo da section*/
+    #reserva{
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 450px;
+        width: 1100px;
+        height: 125px;
+        background-color: #bdb76b;
+        border-radius: 5px;
+    }
+    form{
+        
+        padding-top: 45px;
+    }
+    #reserva label{
+        margin-left: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    #entrada{
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 8px;
+        width: 125px;         
+    }
+    #saida{
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 8px;
+        width: 125px;  
+    }
+    #adultos{
+        border-radius: 10px;
+        margin-left: 70px;
+        padding: 12px;
+        width: 125px;
+    }
+    #criancas{
+        border-radius: 10px;
+        margin-left: 70px;
+        padding: 12px;
+        width: 125px;
+    }
+    #submit{       
+        float: left;
+        color: #ccc24a;
+        font-size: 20px;
+        text-align: center;
+        margin-top: -55px;
+        margin-left: 910px;
+        background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
+        width: 150px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    #quartos{
+        float: left;
+        margin-top: 120px;
+        margin-left: 550px;
+        color: #ccc24a;
+        font-size: 28px;
+    }
+
+    #casal{
+        margin-left: 10px;
+    }
+
+    #solteiro{
+        float: left;
+        margin-left: -200px;
     }
 }
