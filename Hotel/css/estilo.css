@@ -32,7 +32,7 @@
         position: absolute;
         margin-top: -23px;
         width: 100%;
-        height: 814px;
+        height: 808px;
         background-color: rgba(22, 22, 22, 0.1);
     }
 
@@ -201,12 +201,31 @@
     }
 
     #casal{
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     #solteiro{
         float: left;
-        margin-left: -200px;
+        margin-left: -200px;        
+    }
+     
+    #precoCasal{
+        visibility: hidden;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 880px;    
+    }
+
+    #precoSolteiro{
+        visibility: hidden;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 260px;
+
+    }
+
+    .classShadow{
+        box-shadow : 10px 10px 5px silver;
     }
 }
 
@@ -427,13 +446,13 @@
     }
 
     #casal{
-        margin-left: 10px;
-        width: 600px;
+        margin-left: 20px;
+        width: 550px;
     }
 
     #solteiro{
         float: left;
-        margin-left: -450px;
-        width: 500px;
+        margin-left: -435px;
+        width: 550px;
     }
 }
