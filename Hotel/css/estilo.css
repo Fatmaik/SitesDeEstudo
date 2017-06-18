@@ -238,9 +238,21 @@
     }
 
     #face{
-        color: #ccc24a;
-        text-decoration: none;
-        
+        margin-left: 1000px;
+        margin-top: -35px;
+    }
+
+    #face img{
+        width: 10px;
+    }
+
+    #insta{
+        margin-left: 1050px;
+        margin-top: -25px;
+    }
+
+    #insta img{
+        width:24px;
     }
 
     hr{
@@ -291,7 +303,7 @@
         position: absolute;
         margin-top: -52px;
         width: 100%;
-        height: 615px;
+        height: 634px;
         background-color: rgba(22, 22, 22, 0.1);
     }
 
@@ -349,59 +361,60 @@
     /*estilo da section*/
     #reserva{
         position: absolute;
-        margin-top: -80px;
-        margin-left: 450px;
-        width: 1100px;
-        height: 125px;
+        margin-top: -60px;
+        margin-left: 240px;
+        width: 850px;
+        height: 100px;
         background-color: #bdb76b;
         border-radius: 5px;
     }
+
     form{
-        
-        padding-top: 45px;
+        padding-top: 35px;
     }
+
     #reserva label{
         margin-left: 20px;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
     }
     #entrada{
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 12px;
         padding: 8px;
-        width: 125px;         
+        width: 100px;         
     }
     #saida{
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 12px;
         padding: 8px;
-        width: 125px;  
+        width: 100px;  
     }
     #adultos{
         border-radius: 10px;
-        margin-left: 70px;
-        padding: 12px;
-        width: 125px;
+        margin-left: 40px;
+        padding: 10px;
+        width: 100px;
     }
     #criancas{
         border-radius: 10px;
-        margin-left: 70px;
-        padding: 12px;
-        width: 125px;
+        margin-left: 40px;
+        padding: 10px;
+        width: 100px;
     }
     #submit{       
         float: left;
         color: #ccc24a;
         font-size: 20px;
         text-align: center;
-        margin-top: -55px;
-        margin-left: 910px;
+        margin-top: -45px;
+        margin-left: 730px;
         background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
         background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
         background-image: -moz-linear-gradient(top, #1C000E, #50000E);
         background-image: linear-gradient(to bottom, #1C000E, #50000E);
-        width: 150px;
-        padding: 20px;
+        width: 100px;
+        padding: 10px;
         border-radius: 15px;
     }
 
@@ -415,10 +428,12 @@
 
     #casal{
         margin-left: 10px;
+        width: 600px;
     }
 
     #solteiro{
         float: left;
-        margin-left: -200px;
+        margin-left: -450px;
+        width: 500px;
     }
 }
