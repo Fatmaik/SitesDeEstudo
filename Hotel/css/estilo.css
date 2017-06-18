@@ -1,78 +1,6 @@
- /*body{
-    margin: 0px;
-}
-#logo{
-    width: 500px;
-    height: 158px;
-   
-}
-
-#logo img{
-    position: absolute;
-    width: 570px;
-    margin-left: -10px;
-}
-
-#contato{
-    position: absolute;
-    float: left;
-    margin-top: -212px;
-    margin-left: 480px;
-    width: 1421px;
-    height: 180px;
-    background-color: rgba(22, 22, 22, 0.2);
-}
-#titulo{
-    position: absolute;
-    margin-top: -32px;
-    width: 100%;
-    height: 814px;
-    background-color: rgba(22, 22, 22, 0.2);
-}
-
-#titulo h3{
-    font-size: 40px;
-    color: #fff;
-    margin-left: 680px;
-    margin-top: 400px;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-}
-
-#titulo a{
-    text-decoration: none;
-    color: rgba(28,0,14,255);
-    
-}
-#dvqt{
-    color: #1C000E;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 910px;
-    background-color: #fff;
-    width: 80px;
-    padding: 5px;
-}
-
-header div p{
-    color: white;
-    margin-top: 90px;
-    margin-left: 650px;
-}
-
-header div span{
-    color:#bdb76b;
-}
-
-#imgHeader{
-    margin-top: -217px;
-    width: 100%;
-    height: 1000px;
-}*/
-
-
-
 
 @media only screen and (max-width:2100px) {
+    /*estilo do header*/
     body{
         margin: 0px;
     }
@@ -93,7 +21,7 @@ header div span{
         float: left;
         margin-top: -212px;
         margin-left: 480px;
-        width: 1398px;
+        width: 1420px;
         height: 180px;
         background-color: rgba(22, 22, 22, 0.2);
     }
@@ -105,7 +33,7 @@ header div span{
         margin-top: -32px;
         width: 100%;
         height: 814px;
-        background-color: rgba(22, 22, 22, 0.2);
+        background-color: rgba(22, 22, 22, 0.1);
     }
 
     #titulo h3{
@@ -146,6 +74,37 @@ header div span{
         width: 100%;
         height: 1000px;
     }
+
+
+    /*estilo da section*/
+    #reserva{
+        margin-left: 450px;
+        width: 900px;
+        height: 150px;
+        background-color: #bdb76b;
+    }
+
+    #reserva label{
+        font-size: 20px;
+        color: white;
+    }
+    #entrada{
+        padding: 10px;
+        width: 125px;         
+    }
+    #saida{
+        padding: 10px;
+        width: 125px; 
+    }
+    #adultos{
+        padding: 12px;
+        width: 125px;
+    }
+    #criancas{
+        padding: 12px;
+        width: 125px;
+    }
+    
 }
 
 @media only screen and (max-width:1300px) {
