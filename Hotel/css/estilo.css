@@ -215,7 +215,11 @@
 
     #menu ol li a{
         color: #ccc24a;
+<<<<<<< HEAD
         background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+=======
+        background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+>>>>>>> 8e3c8cbf327970f829d7b4deac03d36f45d743ac
         background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
         background-image: -moz-linear-gradient(top, #1C000E, #50000E);
         background-image: linear-gradient(to bottom, #1C000E, #50000E);
@@ -227,7 +231,11 @@
     }
 
     #menu ol li a:hover{
+<<<<<<< HEAD
         background-color: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+=======
+        background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+>>>>>>> 8e3c8cbf327970f829d7b4deac03d36f45d743ac
         background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
         background-image: -moz-linear-gradient(top, #50000E, #1C000E);
         background-image: linear-gradient(to bottom, #50000E, #1C000E);
@@ -260,7 +268,11 @@
         font-size: 20px;
         text-align: center;
         margin-left: 640px;
+<<<<<<< HEAD
         background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+=======
+        background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+>>>>>>> 8e3c8cbf327970f829d7b4deac03d36f45d743ac
         background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
         background-image: -moz-linear-gradient(top, #1C000E, #50000E);
         background-image: linear-gradient(to bottom, #1C000E, #50000E);
@@ -270,7 +282,11 @@
     }
 
     #dvqt:hover{
+<<<<<<< HEAD
         background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+=======
+        background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+>>>>>>> 8e3c8cbf327970f829d7b4deac03d36f45d743ac
         background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
         background-image: -moz-linear-gradient(top, #50000E, #1C000E);
         background-image: linear-gradient(to bottom, #50000E, #1C000E);
