@@ -102,6 +102,12 @@
         margin-top: 70px;
     }
 
+    #face{
+        color: #ccc24a;
+        text-decoration: none;
+        
+    }
+
     hr{
         margin-left: 650px;
         width:515px;
