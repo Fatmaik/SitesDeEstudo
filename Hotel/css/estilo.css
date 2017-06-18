@@ -21,19 +21,26 @@
     margin-top: -212px;
     margin-left: 515px;
     transform: skew(-20deg);
-    width: 100%;
+    width: 1450px;
     height: 180px;
     background-color: rgba(22, 22, 22, 0.4);
 }
 header div p{
+
     color: white;
     margin-top: 90px;
-    margin-left: 515px;
+    margin-left: 650px;
 }
 header div span{
-    color: bisque;
+    color: darkkhaki;
 }
 #imgHeader{
     margin-top: -212px;
     width: 100%;
+}
+
+header h2{
+    margin-top: 500px;
+    margin-left: 800px;
+    position: absolute;
 }
