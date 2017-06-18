@@ -1,16 +1,15 @@
- body{
+ /*body{
     margin: 0px;
 }
 #logo{
-    /*background: rgba(28,0,14,255);*/
     width: 500px;
     height: 158px;
-    transform: skew(-20deg);
+   
 }
 
 #logo img{
-    transform: skew(20deg);
-    width: 400px;
+    position: absolute;
+    width: 570px;
     margin-left: -10px;
 }
 
@@ -21,51 +20,142 @@
     margin-left: 480px;
     width: 1421px;
     height: 180px;
-    background-color: rgba(22, 22, 22, 0.4);
+    background-color: rgba(22, 22, 22, 0.2);
 }
-header div p{
+#titulo{
+    position: absolute;
+    margin-top: -32px;
+    width: 100%;
+    height: 814px;
+    background-color: rgba(22, 22, 22, 0.2);
+}
 
+#titulo h3{
+    font-size: 40px;
+    color: #fff;
+    margin-left: 680px;
+    margin-top: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+#titulo a{
+    text-decoration: none;
+    color: rgba(28,0,14,255);
+    
+}
+#dvqt{
+    color: #1C000E;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 910px;
+    background-color: #fff;
+    width: 80px;
+    padding: 5px;
+}
+
+header div p{
     color: white;
     margin-top: 90px;
     margin-left: 650px;
 }
+
 header div span{
-
-    
-    color:darkkhaki;
+    color:#bdb76b;
 }
+
 #imgHeader{
-    margin-top: -212px;
+    margin-top: -217px;
     width: 100%;
-}
-
-/*header h3{
-    font-size: 40px;
-    color: rgba(28,0,14,255);
-    margin-top: 250px;
-    margin-left: 700px;
-    position: absolute;
+    height: 1000px;
 }*/
 
-#titulo{
-    margin-top: 250px;
-    margin-left: 650px;
-    position: absolute;
-    width: 600px;
-    height: 200px;
-    background-color: antiquewhite;
-}
 
-@media only screen and (max-width:1500px) {
+
+
+@media only screen and (max-width:2100px) {
+    body{
+        margin: 0px;
+    }
     #logo{
-        background: rgba(28,0,14,255);
         width: 500px;
         height: 158px;
-        transform: skew(-20deg);
+    
     }
 
     #logo img{
-        transform: skew(20deg);
+        position: absolute;
+        width: 570px;
+        margin-left: -10px;
+    }
+
+    #contato{
+        position: absolute;
+        float: left;
+        margin-top: -212px;
+        margin-left: 480px;
+        width: 1398px;
+        height: 180px;
+        background-color: rgba(22, 22, 22, 0.2);
+    }
+    #contato p{
+        margin-left: 1110px;
+    }
+    #titulo{
+        position: absolute;
+        margin-top: -32px;
+        width: 100%;
+        height: 814px;
+        background-color: rgba(22, 22, 22, 0.2);
+    }
+
+    #titulo h3{
+        font-size: 40px;
+        color: #fff;
+        margin-left: 680px;
+        margin-top: 400px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    }
+
+    #titulo a{
+        text-decoration: none;
+        color: rgba(28,0,14,255);
+        
+    }
+    #dvqt{
+        color: #1C000E;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 910px;
+        background-color: #fff;
+        width: 80px;
+        padding: 5px;
+    }
+
+    header div p{
+        color: white;
+        margin-top: 90px;
+        margin-left: 650px;
+    }
+
+    header div span{
+        color:#bdb76b;
+    }
+
+    #imgHeader{
+        margin-top: -217px;
+        width: 100%;
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    body{
+        margin: 0px;
+    }
+    
+
+    #logo img{
+        position: absolute;
         width: 400px;
         margin-left: -10px;
     }
@@ -74,32 +164,55 @@ header div span{
         position: absolute;
         float: left;
         margin-top: -212px;
-        margin-left: 515px;
-        transform: skew(-20deg);
-        width: 1450px;
+        margin-left: 80px;
+        width: 1421px;
         height: 180px;
-        background-color: rgba(22, 22, 22, 0.4);
+        background-color: rgba(22, 22, 22, 0.2);
     }
-    header div p{
+    #titulo{
+        position: absolute;
+        margin-top: -32px;
+        width: 100%;
+        height: 814px;
+        background-color: rgba(22, 22, 22, 0.2);
+    }
 
+    #titulo h3{
+        font-size: 40px;
+        color: #fff;
+        margin-left: 680px;
+        margin-top: 400px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    }
+
+    #titulo a{
+        text-decoration: none;
+        color: rgba(28,0,14,255);
+        
+    }
+    #dvqt{
+        color: #1C000E;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 910px;
+        background-color: #fff;
+        width: 80px;
+        padding: 5px;
+    }
+
+    header div p{
         color: white;
         margin-top: 90px;
-        margin-left: 400px;
-    }
-    header div span{
-        
-        color:darkkhaki;
-    }
-    #imgHeader{
-        margin-top: -212px;
-        width: 100%;
+        margin-left: 650px;
     }
 
-    header h3{
-        font-size: 40px;
-        color: rgba(28,0,14,255);
-        margin-top: 250px;
-        margin-left: 700px;
-        position: absolute;
+    header div span{
+        color:#bdb76b;
+    }
+
+    #imgHeader{
+        margin-top: -217px;
+        width: 100%;
+        height: 1000px;
     }
 }
