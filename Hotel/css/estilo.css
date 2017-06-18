@@ -1,7 +1,6 @@
  body{
     margin: 0px;
 }
-
 #logo{
     background: rgba(28,0,14,255);
     width: 500px;
@@ -19,9 +18,8 @@
     position: absolute;
     float: left;
     margin-top: -212px;
-    margin-left: 515px;
-    transform: skew(-20deg);
-    width: 1450px;
+    margin-left: 480px;
+    width: 1421px;
     height: 180px;
     background-color: rgba(22, 22, 22, 0.4);
 }
@@ -32,15 +30,75 @@ header div p{
     margin-left: 400px;
 }
 header div span{
-    color: bisque;
+    
+    color:darkkhaki;
 }
 #imgHeader{
     margin-top: -212px;
     width: 100%;
 }
 
-header h2{
-    margin-top: 500px;
-    margin-left: 800px;
+/*header h3{
+    font-size: 40px;
+    color: rgba(28,0,14,255);
+    margin-top: 250px;
+    margin-left: 700px;
     position: absolute;
+}*/
+
+#titulo{
+    margin-top: 250px;
+    margin-left: 650px;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+@media only screen and (max-width:1500px) {
+    #logo{
+        background: rgba(28,0,14,255);
+        width: 500px;
+        height: 158px;
+        transform: skew(-20deg);
+    }
+
+    #logo img{
+        transform: skew(20deg);
+        width: 400px;
+        margin-left: -10px;
+    }
+
+    #contato{
+        position: absolute;
+        float: left;
+        margin-top: -212px;
+        margin-left: 515px;
+        transform: skew(-20deg);
+        width: 1450px;
+        height: 180px;
+        background-color: rgba(22, 22, 22, 0.4);
+    }
+    header div p{
+
+        color: white;
+        margin-top: 90px;
+        margin-left: 400px;
+    }
+    header div span{
+        
+        color:darkkhaki;
+    }
+    #imgHeader{
+        margin-top: -212px;
+        width: 100%;
+    }
+
+    header h3{
+        font-size: 40px;
+        color: rgba(28,0,14,255);
+        margin-top: 250px;
+        margin-left: 700px;
+        position: absolute;
+    }
 }
