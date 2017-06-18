@@ -20,3 +20,7 @@ header div span{
     margin-top: -80px;
     width: 100%;
 }
+
+header h2{
+    position: absolute;
+}
