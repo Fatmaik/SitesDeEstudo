@@ -51,13 +51,17 @@
         
     }
     #dvqt{
-        color: #1C000E;
+        color: #ccc24a;
         font-size: 20px;
         text-align: center;
-        
-        background-color: #fff;
+        margin-left: 910px;
+        background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
+        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
+        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
+        background-image: linear-gradient(to bottom, #1C000E, #50000E);
         width: 80px;
         padding: 5px;
+        border-radius: 5px;
     }
 
     header div p{
@@ -100,7 +104,7 @@
 
     #menu ol li a{
         color: #ccc24a;
-        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
         background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
         background-image: -moz-linear-gradient(top, #1C000E, #50000E);
         background-image: linear-gradient(to bottom, #1C000E, #50000E);
@@ -112,28 +116,16 @@
     }
 
     #menu ol li a:hover{
-        background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+        background-color: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
         background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
         background-image: -moz-linear-gradient(top, #50000E, #1C000E);
         background-image: linear-gradient(to bottom, #50000E, #1C000E);
         color: #ccc24a;
     }
-     #dvqt{
-        color: #ccc24a;
-        font-size: 20px;
-        text-align: center;
-        margin-left: 640px;
-        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
-        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
-        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
-        background-image: linear-gradient(to bottom, #1C000E, #50000E);
-        width: 80px;
-        padding: 5px;
-        border-radius: 5px;
-    }
+     
 
     #dvqt:hover{
-        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background:-webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
         background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
         background-image: -moz-linear-gradient(top, #50000E, #1C000E);
         background-image: linear-gradient(to bottom, #50000E, #1C000E);
@@ -223,7 +215,7 @@
 
     #menu ol li a{
         color: #ccc24a;
-        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
         background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
         background-image: -moz-linear-gradient(top, #1C000E, #50000E);
         background-image: linear-gradient(to bottom, #1C000E, #50000E);
@@ -235,7 +227,7 @@
     }
 
     #menu ol li a:hover{
-        background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+        background-color: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
         background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
         background-image: -moz-linear-gradient(top, #50000E, #1C000E);
         background-image: linear-gradient(to bottom, #50000E, #1C000E);
@@ -268,7 +260,7 @@
         font-size: 20px;
         text-align: center;
         margin-left: 640px;
-        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
         background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
         background-image: -moz-linear-gradient(top, #1C000E, #50000E);
         background-image: linear-gradient(to bottom, #1C000E, #50000E);
@@ -278,7 +270,7 @@
     }
 
     #dvqt:hover{
-        background: background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color));
+        background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
         background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
         background-image: -moz-linear-gradient(top, #50000E, #1C000E);
         background-image: linear-gradient(to bottom, #50000E, #1C000E);
