@@ -399,13 +399,13 @@
     }
     #entrada{
         border-radius: 10px;
-        font-size: 12px;
+        font-size: 10px;
         padding: 8px;
         width: 100px;         
     }
     #saida{
         border-radius: 10px;
-        font-size: 12px;
+        font-size: 10px;
         padding: 8px;
         width: 100px;  
     }
