@@ -1,12 +1,9 @@
 window.onload = function() {
    valorQuartos();
-<<<<<<< HEAD
    Face();
    Insta();
    Twitter();
 
-=======
->>>>>>> 5abf8139ee6e55d4d8aef4994d749992cd64d90a
 }
 function valorQuartos() {
     var casal = document.getElementById("casal");
@@ -34,8 +31,8 @@ function valorQuartos() {
     solteiro.onmouseleave = function() {
         this.removeAttribute("class", "classShadow");
         document.getElementById("precoSolteiro").style.visibility = "hidden";
-<<<<<<< HEAD
-    }  
+        document.getElementById("precoSolteiro").removeAttribute("class", "classAnimationSolteiro");
+    } 
 }
 
 function Face(){
@@ -60,10 +57,6 @@ function Insta(){
     insta.onmouseleave = function(){
         this.innerHTML = '<img src="css/imagens/LogoInsta/InstaBranco.png">';
     }
-=======
-        document.getElementById("precoSolteiro").removeAttribute("class", "classAnimationSolteiro");
-    } 
->>>>>>> 5abf8139ee6e55d4d8aef4994d749992cd64d90a
 }
 
 function Twitter(){
