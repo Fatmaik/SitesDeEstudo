@@ -97,7 +97,19 @@
     #insta img{
         width:24px;
     }
-     hr{
+
+    #twitter{
+        margin-left: 1080px;
+        margin-top: -25px;
+        background: black;
+        width: 20px;
+    }
+
+    #twitter img{
+        width: 20px;
+    }
+
+    hr{
         margin-left: 650px;
         width:540px;
         border-color: rgba(80,0,14,255);
