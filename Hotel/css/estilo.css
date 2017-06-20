@@ -81,8 +81,11 @@
     }
 
     #face{
-        margin-left: 1000px;
+        margin-left: 1030px;
         margin-top: -35px;
+        background: black;
+        width: 10px;
+        height: 20px;
     }
 
     #face img{
@@ -90,8 +93,10 @@
     }
 
     #insta{
-        margin-left: 1050px;
+        margin-left: 1140px;
         margin-top: -25px;
+        background: black;
+        width: 24px;
     }
 
     #insta img{
