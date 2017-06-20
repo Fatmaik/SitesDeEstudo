@@ -257,8 +257,11 @@
     }
 
     #face{
-        margin-left: 1110px;
+        margin-left: 1030px;
         margin-top: -35px;
+        background: black;
+        width: 10px;
+        height: 20px;
     }
 
     #face img{
@@ -268,10 +271,23 @@
     #insta{
         margin-left: 1140px;
         margin-top: -25px;
+        background: black;
+        width: 24px;
     }
 
     #insta img{
         width:24px;
+    }
+
+    #twitter{
+        margin-left: 1080px;
+        margin-top: -25px;
+        background: black;
+        width: 20px;
+    }
+
+    #twitter img{
+        width: 20px;
     }
 
     hr{
