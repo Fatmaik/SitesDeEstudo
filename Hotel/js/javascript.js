@@ -1,9 +1,12 @@
 window.onload = function() {
    valorQuartos();
+<<<<<<< HEAD
    Face();
    Insta();
    Twitter();
 
+=======
+>>>>>>> 5abf8139ee6e55d4d8aef4994d749992cd64d90a
 }
 function valorQuartos() {
     var casal = document.getElementById("casal");
@@ -12,21 +15,26 @@ function valorQuartos() {
     casal.onmouseover = function() {
         this.setAttribute("class", "classShadow");
         document.getElementById("precoCasal").style.visibility = "visible";
+        document.getElementById("precoCasal").setAttribute("class", "classAnimationCasado");
 
     }
     casal.onmouseleave = function() {
         this.removeAttribute("class");
         document.getElementById("precoCasal").style.visibility = "hidden";
+        document.getElementById("precoCasal").removeAttribute("class", "classAnimationCasado");
     }
 
     solteiro.onmouseover = function() {
         this.setAttribute("class", "classShadow");
         document.getElementById("precoSolteiro").style.visibility = "visible";
+        document.getElementById("precoSolteiro").setAttribute("class", "classAnimationSolteiro");
+
     }
 
     solteiro.onmouseleave = function() {
         this.removeAttribute("class", "classShadow");
         document.getElementById("precoSolteiro").style.visibility = "hidden";
+<<<<<<< HEAD
     }  
 }
 
@@ -52,6 +60,10 @@ function Insta(){
     insta.onmouseleave = function(){
         this.innerHTML = '<img src="css/imagens/LogoInsta/InstaBranco.png">';
     }
+=======
+        document.getElementById("precoSolteiro").removeAttribute("class", "classAnimationSolteiro");
+    } 
+>>>>>>> 5abf8139ee6e55d4d8aef4994d749992cd64d90a
 }
 
 function Twitter(){

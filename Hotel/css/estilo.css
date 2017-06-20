@@ -79,6 +79,24 @@
         width: 100%;
         height: 1000px;
     }
+
+    #face{
+        margin-left: 1000px;
+        margin-top: -35px;
+    }
+
+    #face img{
+        width: 10px;
+    }
+
+    #insta{
+        margin-left: 1050px;
+        margin-top: -25px;
+    }
+
+    #insta img{
+        width:24px;
+    }
      hr{
         margin-left: 650px;
         width:540px;
@@ -226,7 +244,34 @@
 
     .classShadow{
         box-shadow : 10px 10px 5px silver;
+        
     }
+
+    .classAnimationSolteiro{
+        animation: 2s move;
+        -webkit-animation: 2s move;
+        -moz-animation: 2s move;
+    }
+
+    .classAnimationCasado{
+        animation: 2s move;
+        -webkit-animation: 2s move;
+        -moz-animation: 2s move;
+    }
+
+    @keyframes move{
+        from{left: 480px;}
+        to{left: 550px;}
+    }
+    @-moz-keyframes move{
+        from{left: 480px;}
+        to{left: 550px;}
+    }
+    @-webkit-keyframes move{
+        from{left: 480px;}
+        to{left: 550px;}
+    }
+    
 }
 
 @media only screen and (max-width:1400px) {
@@ -489,5 +534,30 @@
 
     .classShadow{
         box-shadow : 10px 10px 5px silver;
+    }
+
+    .classAnimationSolteiro{
+        animation: 2s move;
+        -webkit-animation: 2s move;
+        -moz-animation: 2s move;
+    }
+
+    .classAnimationCasado{
+        animation: 2s move;
+        -webkit-animation: 2s move;
+        -moz-animation: 2s move;
+    }
+
+    @keyframes move{
+        from{left: 480px;}
+        to{left: 550px;}
+    }
+    @-moz-keyframes move{
+        from{left: 480px;}
+        to{left: 550px;}
+    }
+    @-webkit-keyframes move{
+        from{left: 480px;}
+        to{left: 550px;}
     }
 }
