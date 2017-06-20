@@ -69,4 +69,5 @@ function Twitter(){
     twitter.onmouseleave = function(){
         this.innerHTML = '<img src="css/imagens/LogoTwitter/TwitterBranco.png">';
     }
+    
 }
