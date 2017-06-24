@@ -81,7 +81,7 @@
     }
 
     #face{
-        margin-left: 1030px;
+        margin-left: 1090px;
         margin-top: -35px;
         
     }
@@ -90,18 +90,8 @@
         width: 12px;
     }
 
-    #insta{
-        margin-left: 1140px;
-        margin-top: -28px;
-       
-    }
-
-    #insta img{
-        width:24px;
-    }
-
     #twitter{
-        margin-left: 1080px;
+        margin-left: 1145px;
         margin-top: -25px;
       
     }
@@ -110,9 +100,21 @@
         width: 24px;
     }
 
+    #insta{
+        margin-left: 1210px;
+        margin-top: -28px;
+       
+    }
+
+    #insta img{
+        width:24px;
+    }
+
+    
+
     hr{
         margin-left: 650px;
-        width:540px;
+        width:600px;
         border-color: rgba(80,0,14,255);
     }
 
@@ -156,7 +158,6 @@
      
 
     #dvqt:hover{
-        background:-webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
         background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
         background-image: -moz-linear-gradient(top, #50000E, #1C000E);
         background-image: linear-gradient(to bottom, #50000E, #1C000E);
@@ -233,11 +234,15 @@
 
     #casal{
         margin-left: 20px;
+        width: 600px;
+        height: 400px;
     }
 
     #solteiro{
         float: left;
-        margin-left: -200px;        
+        margin-left: -200px;
+        width: 600px;
+        height: 400px;        
     }
      
     #precoCasal{
@@ -253,6 +258,35 @@
         margin-top: 320px;
         margin-left: 260px;
 
+    }
+
+    #divlazer{
+        margin-top: 640px;
+        margin-left: 50px;
+        position: absolute;
+        height: 400px;
+    }
+
+    #titulolazer{
+        margin-left: 850px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-size: 35px;
+        color: #ccc24a;
+    }
+
+    #cozinha{
+        margin-left: 60px;
+        width: 500px;
+    }
+    
+    #lazer{
+        margin-left: 10px;
+        width: 565px;
+    }
+
+    #restaurante{
+        margin-left: 10px;
+        width: 565px;
     }
 
     .classShadow{
@@ -286,13 +320,14 @@
     }
 
     #cartoes img{
-        margin-left: 520px;
+        margin-top: 520px;
+        margin-left: 880px;
         width: 140px;
     }
 
     /*estilo footer*/
     footer{
-        margin-top: 800px;
+        margin-top: 00px;
         width: 2100px;
         height: 300px;
         background-color: #363636;
@@ -331,6 +366,19 @@
     }
 
     #divEmail p{
+        color: #fff;
+        margin-left: 50px;
+        margin-top: -35px;
+    }
+
+    #telefone{
+        padding: 5px;
+        border: 2px solid #696969;
+        width: 21px;
+        height: 25px;
+    }
+
+    #divTelefone p{
         color: #fff;
         margin-left: 50px;
         margin-top: -35px;
@@ -593,6 +641,31 @@
         margin-top: 320px;
         margin-left: -20px;
 
+    }
+    
+    #divlazer{
+        margin-top: 640px;
+        position: absolute;
+        height: 200px;
+    }
+
+    #titulolazer{
+        margin-left: 630px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-size: 35px;
+        color: #ccc24a;
+    }
+
+    #cozinha{
+        margin-left: 60px;
+    }
+    
+    #lazer{
+        margin-left: 10px;
+    }
+
+    #restaurante{
+        margin-left: 10px;
     }
 
     .classShadow{

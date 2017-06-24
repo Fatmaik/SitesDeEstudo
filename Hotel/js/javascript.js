@@ -1,7 +1,11 @@
 $(document).ready(function() {
     valorQuartos();
     trocarFace();
-}) 
+    fotoHome();
+
+});
+
+
 function valorQuartos() {
     var casal = document.getElementById("casal");
     var solteiro = document.getElementById("solteiro");
@@ -29,6 +33,21 @@ function valorQuartos() {
         document.getElementById("precoSolteiro").style.visibility = "hidden";
         document.getElementById("precoSolteiro").removeAttribute("class", "classAnimationSolteiro");
     } 
+};
 
+function fotoHome() {
+    alert("test");
+    var time = date.getSeconds();
+
+    // if(time == 1) {
+    //     alert("test 1");      
+    // }else if(time == 31) {
+    //     alert("test 2");
+    // }else{
+    //     alert("nao deu");
+    // }
+    
 }
+
+
 
