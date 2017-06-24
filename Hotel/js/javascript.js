@@ -1,10 +1,16 @@
-window.onload = function() {
-   valorQuartos();
-   Face();
-   Insta();
-   Twitter();
+$(document).ready(function() {
+    valorQuartos();
+    trocarFace();
+    // document.getElementById("face").onmouseout = destrocarFace;
+}) 
+   
+   
+//    setInterval("Face()",1000);
+//    Insta();
+//    Twitter();
+    
+    
 
-}
 function valorQuartos() {
     var casal = document.getElementById("casal");
     var solteiro = document.getElementById("solteiro");
@@ -13,8 +19,8 @@ function valorQuartos() {
         this.setAttribute("class", "classShadow");
         document.getElementById("precoCasal").style.visibility = "visible";
         document.getElementById("precoCasal").setAttribute("class", "classAnimationCasado");
-
     }
+
     casal.onmouseleave = function() {
         this.removeAttribute("class");
         document.getElementById("precoCasal").style.visibility = "hidden";
@@ -25,7 +31,6 @@ function valorQuartos() {
         this.setAttribute("class", "classShadow");
         document.getElementById("precoSolteiro").style.visibility = "visible";
         document.getElementById("precoSolteiro").setAttribute("class", "classAnimationSolteiro");
-
     }
 
     solteiro.onmouseleave = function() {
@@ -35,40 +40,54 @@ function valorQuartos() {
     } 
 }
 
-function Face(){
-    var face = document.getElementById("face");
+// function Face(){
+//     var face = document.getElementById("face");
 
-    face.onmouseover = function(){
-        this.innerHTML = '<img src="css/imagens/LogoFacebook/FaceAmarelo.png">';
-    }
+//     face.onmouseover = function(){
+//         this.innerHTML = '<img src="css/imagens/LogoFacebook/FaceAmarelo.png">';
+//     }
 
-    face.onmouseleave = function(){
-        this.innerHTML = '<img src="css/imagens/LogoFacebook/FaceBranco.png">';
+// }
+
+// function Insta(){
+//     var insta = document.getElementById("insta");
+    
+//     insta.onmouseover = function(){
+//         this.innerHTML = '<img src="css/imagens/LogoInsta/InstaAmarelo.png">';
+//     }
+
+//     insta.onmouseleave = function(){
+//         this.innerHTML = '<img src="css/imagens/LogoInsta/InstaBranco.png">';
+//     }
+// }
+
+// function Twitter(){
+//     var twitter = document.getElementById("twitter");
+    
+//     twitter.onmouseover = function(){
+//         this.innerHTML = '<img src="css/imagens/LogoTwitter/TwitterAmarelo.png">';
+//     }
+
+//     twitter.onmouseleave = function(){
+//         this.innerHTML = '<img src="css/imagens/LogoTwitter/TwitterBranco.png">';
+//     }
+    
+// }
+
+function trocarFace() {
+    $('#face').on({
+    'mouseover': function() {
+         var src = ($(this).attr('src') === 'FaceBranco.png')
+            ? 'FaceAmarelo.png'
+            : 'FaceBranco.png';
+         $(this).attr('src', src);
     }
+});
+    
+//    
 }
 
-function Insta(){
-    var insta = document.getElementById("insta");
-    
-    insta.onmouseover = function(){
-        this.innerHTML = '<img src="css/imagens/LogoInsta/InstaAmarelo.png">';
-    }
-
-    insta.onmouseleave = function(){
-        this.innerHTML = '<img src="css/imagens/LogoInsta/InstaBranco.png">';
-    }
-}
-
-function Twitter(){
-    var twitter = document.getElementById("twitter");
-    
-    twitter.onmouseover = function(){
-        this.innerHTML = '<img src="css/imagens/LogoTwitter/TwitterAmarelo.png">';
-    }
-
-    twitter.onmouseleave = function(){
-        this.innerHTML = '<img src="css/imagens/LogoTwitter/TwitterBranco.png">';
-    }
-    
+function destrocarFace() {
+   this.src='css/imagens/LogoFacebook/FaceAmarelo.png';
 }
 
