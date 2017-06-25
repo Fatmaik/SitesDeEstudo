@@ -336,6 +336,11 @@
         height: 300px;
         background-color: #363636;
     }
+
+    #logoFooter{
+        height:300px;
+    }
+    
     #footerContatos{
         margin-top: -250px;
         margin-left: 1000px;
