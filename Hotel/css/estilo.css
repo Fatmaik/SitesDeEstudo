@@ -50,19 +50,6 @@
         color: rgba(28,0,14,255);
         
     }
-    #dvqt{
-        color: #ccc24a;
-        font-size: 20px;
-        text-align: center;
-        margin-left: 910px;
-        background: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
-        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
-        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
-        background-image: linear-gradient(to bottom, #1C000E, #50000E);
-        width: 80px;
-        padding: 5px;
-        border-radius: 5px;
-    }
 
     header div p{
         color: white;
@@ -155,15 +142,6 @@
         background-image: linear-gradient(to bottom, #50000E, #1C000E);
         color: #ccc24a;
     }
-     
-
-    #dvqt:hover{
-        background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
-        background-image: -moz-linear-gradient(top, #50000E, #1C000E);
-        background-image: linear-gradient(to bottom, #50000E, #1C000E);
-    }
-
-
     /*estilo da section*/
     #reserva{
         position: absolute;
@@ -515,26 +493,6 @@
         color: rgba(28,0,14,255);
         
     }
-    #dvqt{
-        color: #ccc24a;
-        font-size: 20px;
-        text-align: center;
-        margin-left: 640px;
-        background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
-        background-image: -webkit-linear-gradient(top, #1C000E, #50000E);
-        background-image: -moz-linear-gradient(top, #1C000E, #50000E);
-        background-image: linear-gradient(to bottom, #1C000E, #50000E);
-        width: 80px;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-    #dvqt:hover{
-        background-image: -webkit-gradient(linear, left top, left bottom, from #1C000E), to(end-color);
-        background-image: -webkit-linear-gradient(top, #50000E, #1C000E);
-        background-image: -moz-linear-gradient(top, #50000E, #1C000E);
-        background-image: linear-gradient(to bottom, #50000E, #1C000E);
-    }
 
     header div p{
         color: white;
@@ -621,6 +579,10 @@
         font-size: 28px;
     }
 
+    #tituloQuartos{
+        margin-left: -35px;
+    }
+
     #casal{
         margin-left: 20px;
         width: 550px;
@@ -654,22 +616,26 @@
     }
 
     #titulolazer{
-        margin-left: 630px;
+        margin-left: 585px;
         font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
         font-size: 35px;
         color: #ccc24a;
     }
 
     #cozinha{
-        margin-left: 60px;
+        margin-left: 15px;
+        width: 400px;
+        height: 267px;
     }
     
     #lazer{
         margin-left: 10px;
+        width: 400px;
     }
 
     #restaurante{
         margin-left: 10px;
+        width: 400px;
     }
 
     .classShadow{
@@ -702,23 +668,28 @@
     }
 
     #cartoes img{
-        margin-left: 520px;
+        margin-top: 420px;
+        margin-left: 610px;
         width: 140px;
     }
 
     /*estilo footer*/
     footer{
-        margin-top: 800px;
-        width: 2100px;
-        height: 300px;
+        width: 1345px;
+        height: 210px;
         background-color: #363636;
     }
+
+    #logoFooter{
+        height: 210px;
+    }
+
     #footerContatos{
-        margin-top: -250px;
-        margin-left: 1000px;
+        margin-top: -195px;
+        margin-left: 770px;
     }
     #footerContatos span{
-        font-size: 30px;
+        font-size: 20px;
         color: #fff;
         
     }
@@ -742,8 +713,8 @@
     #email {
         padding: 5px;
         border: 2px solid #696969;
-        width: 21px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
 
     #divEmail p{

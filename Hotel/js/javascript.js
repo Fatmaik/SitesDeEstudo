@@ -1,11 +1,6 @@
 $(document).ready(function() {
     valorQuartos();
     setInterval("fotoHome()", 1000);
-    
-   
-    custoTotal();
-    
-
 });
 
 // funcao de apresentacao de preços de quartos (solteiro/casal)
