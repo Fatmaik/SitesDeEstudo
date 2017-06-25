@@ -1,11 +1,14 @@
 $(document).ready(function() {
     valorQuartos();
-    trocarFace();
-    fotoHome();
+    setInterval("fotoHome()", 1000);
+    
+   
+    custoTotal();
+    
 
 });
 
-
+// funcao de apresentacao de preços de quartos (solteiro/casal)
 function valorQuartos() {
     var casal = document.getElementById("casal");
     var solteiro = document.getElementById("solteiro");
@@ -33,21 +36,51 @@ function valorQuartos() {
         document.getElementById("precoSolteiro").style.visibility = "hidden";
         document.getElementById("precoSolteiro").removeAttribute("class", "classAnimationSolteiro");
     } 
-};
-
-function fotoHome() {
-    alert("test");
-    var time = date.getSeconds();
-
-    // if(time == 1) {
-    //     alert("test 1");      
-    // }else if(time == 31) {
-    //     alert("test 2");
-    // }else{
-    //     alert("nao deu");
-    // }
-    
 }
 
+// funcao de alteracao de imagens de apresentacao do site
+function fotoHome() {
+    var date = new Date();
+    
+    if(date.getSeconds() < 10) {
+        var img = $("#imgHeader");
+        img.attr({
+            src: "css/imagens/Hotel/hotel1.jpg",
+            alt: "hotel 1"
+        })
+             
+    }else if(date.getSeconds() >= 10 && date.getSeconds() < 20) {
+        var img = $("#imgHeader");
+        img.attr({
+            src: "css/imagens/Hotel/hotel2.jpg",
+            alt: "hotel 2"
+        })
+    }else if(date.getSeconds() >= 20 && date.getSeconds() < 30) {
+        var img = $("#imgHeader");
+        img.attr({
+            src: "css/imagens/Hotel/hotel3.jpg",
+            alt: "hotel 3"
+        })
+    }else if(date.getSeconds() >= 30 && date.getSeconds() < 40) {
+        var img = $("#imgHeader");
+        img.attr({
+            src: "css/imagens/Hotel/hotel1.jpg",
+            alt: "hotel 1"
+        })
+             
+    }else if(date.getSeconds() >= 40 && date.getSeconds() < 50) {
+        var img = $("#imgHeader");
+        img.attr({
+            src: "css/imagens/Hotel/hotel2.jpg",
+            alt: "hotel 2"
+        })
+    }else if(date.getSeconds() >= 51 && date.getSeconds() < 60) {
+        var img = $("#imgHeader");
+        img.attr({
+            src: "css/imagens/Hotel/hotel3.jpg",
+            alt: "hotel 3"
+        })
+    }
+}
 
 
